@@ -33,7 +33,7 @@ public class Main {
 
         //JavaRDD<Double> javaRDD = sparkContext.parallelize(inputs);
 
-        String filePath = "/Users/b0266196/development/airtel-repos/spark-java-tutorial/src/main/resources/content.txt";
+        String filePath = "/Users/b0266196/development/personal-repos/spark-java-examples/src/main/resources/content.txt";
 
         JavaRDD<String> textFile = sparkContext.textFile(filePath);
 
